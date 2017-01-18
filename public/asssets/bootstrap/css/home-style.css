@@ -1,0 +1,87 @@
+.footer {
+  height: 250px;
+  width: 100%;
+  background-color: #011;
+}
+.footer h4 {
+  margin-top: 40px;
+  color: #ffc;
+}
+.footer ul {
+  color: #ccccc;
+}
+.footer li {
+  list-style-type: none;
+}
+.buttonIna
+{
+	background:url(../../dist/img/iconina.png);
+	width:30px;
+	height:24px;
+	border:none;
+}
+
+.buttonEng
+{
+	background:url(../../dist/img/eng.png);
+	width:30px;
+	height:24px;
+	border:none;
+}
+
+/*GALLERY PAGE */
+
+#gallery{
+	 float:left;
+	 margin:8px 8px; 
+	 width:850px;
+}
+#gallery.img{
+	background:#fff;
+	float:left;
+	width:245px; 
+	color:#CCC;
+}
+.hover{
+	position:absolute; 
+	width:245px;
+	height:234px;
+	z-index:100; 
+	display:none;
+	background:rgba(20,20,20,0.6);
+}
+.hover p{
+	color:#FFF; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:14px; 
+	text-align:center;
+	margin-top:90px; 
+}
+#gallery.img a:hover .hover{
+	display:block;
+}
+/*-------------- COROUSEL ---------------*/
+#owl-demo .item{
+      margin-top:50px;
+}
+#owl-demo .item img{
+      display: block;
+      width: 100%;
+      height: 234px;
+}
+.center-line{
+	width:60%;
+	height:auto;
+	margin-left:220px;
+	border-bottom:1px #CCC solid;
+}
+@media (max-width : 400px) {
+	.center-line{
+		width:80%;
+		height:auto;
+		margin-left:30px;
+		border-bottom:1px #CCC solid;
+	}
+}
+
+
